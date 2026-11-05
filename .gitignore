@@ -1,0 +1,32 @@
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Служебные файлы Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Исходные данные
+**/raw_data/
+**/pilot_raw_data/
+
+# Результаты анализа
+**/output/
+**/output_v_*/
+
+# Временные файлы
+*.tmp
+*.log
+~$*
